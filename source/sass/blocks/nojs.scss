@@ -1,0 +1,20 @@
+.nojs .main-nav__list {
+  position: static;
+  display: block;
+  margin-top: 20px;
+  box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
+}
+
+.nojs .main-menu-toggle {
+  display: none;
+}
+
+.nojs .promo__title,
+.nojs .promo__text {
+  color: black;
+  margin-top: 20px;
+}
+
+.nojs .promo__text {
+  margin-bottom: 20px;
+}

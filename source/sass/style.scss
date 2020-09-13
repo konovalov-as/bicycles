@@ -5,5 +5,15 @@
 @import "global/global.scss";
 @import "blocks/container";
 
+// header
+@import "blocks/page-header.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/main-menu-toggle.scss";
+@import "blocks/promo";
+@import "blocks/help-form.scss";
+
 // blocks styles
 @import "blocks/body.scss";
+
+// nojs
+@import "blocks/nojs.scss";

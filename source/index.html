@@ -94,9 +94,42 @@
 
   </main>
 
-  <footer class="">
+  <footer class="page-footer">
     <div class="container">
-
+      <div class="page-footer__wrapper">
+        <div class="page-footer__location">
+          <p class="page-footer__title">Как нас найти?</p>
+          <p class="page-footer__text">Мы находимся по адресу: Санкт-Петербург, ул. Большая Конюшенная, д. 19</p>
+        </div>
+        <div class="page-footer_image">
+          <!-- 1х: 957px; 2x: 1914px -->
+          <!-- 1х: 698px; 2x: 1396px -->
+          <!-- 1х: 320px; 2x: 640px -->
+          <picture>
+            <source type="image/webp" media="(max-width: 767px)"
+              srcset="img/map-mobile@1x.webp 1x, img/map-mobile@2x.webp 2x">
+            <source type="image/webp" media="(max-width: 1023px)"
+              srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/map-desktop@1x.webp 1x, img/map-desktop@2x.webp 2x">
+            <img src="img/map-desktop@1x.png" alt="г. Санкт-Петербург, ул. Большая Конюшенная, д. 19" width="957"
+              height="530" srcset="img/map-desktop@2x.png 2x">
+          </picture>
+        </div>
+        <div class="page-footer__contacts">
+          <a class="page-footer__email" href="mailto:puteshestviemechta@gmail.ru">
+            <svg width="26" height="20">
+              <use xlink:href="img/sprite_auto.svg#icon-email"></use>
+            </svg>
+            <span>puteshestviemechta@gmail.ru</span>
+          </a>
+          <a class="page-footer__phone" href="tel: +749978468446">
+            <svg width="22" height="23">
+              <use xlink:href="img/sprite_auto.svg#icon-phone"></use>
+            </svg>
+            <span>+7 (499) -784-684-46</span>
+          </a>
+        </div>
+      </div>
     </div>
   </footer>
 

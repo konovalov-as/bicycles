@@ -7,6 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("../img/promo-desktop@1x.jpg");
+  margin-bottom: 150px;
 
   @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
     background-image: url("../img/promo-desktop@2x.jpg");
@@ -46,6 +47,7 @@
     min-height: 340px;
     background-position: top;
     background-image: url("../img/promo-tablet@1x.jpg");
+    margin-bottom: 70px;
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/promo-tablet@2x.jpg");

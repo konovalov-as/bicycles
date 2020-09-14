@@ -1,0 +1,26 @@
+.title-h2 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.005em;
+  color: #1f1f1f;
+  text-align: center;
+}
+
+.title-h2--advantages {
+  margin-bottom: 50px;
+}
+
+@media (max-width: $tablet-width-only) {
+  .title-h2 {
+    font-size: 24px;
+    line-height: 41px;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
+  .title-h2--advantages {
+    margin-bottom: 30px;
+  }
+}

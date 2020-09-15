@@ -154,6 +154,35 @@
       </div>
     </section>
 
+    <section class="video-bicycles">
+      <div class="video-bicycles__wrapper">
+        <div class="container">
+          <h2 class="title-h2 title-h2--video-bicycles">Видео про велосипеды</h2>
+          <div class="video-bicycles__inner">
+            <p class="video-bicycles__text">В этом видео мы подробно расскажем про особенности выбора велосипеда для
+              себя.</p>
+            <div class="video-bicycles__image">
+              <!-- 1х: 929px; 2x: 1858px -->
+              <!-- 1х: 503px; 2x: 1006px -->
+              <picture>
+                <source type="image/webp" media="(max-width: 1023px)"
+                  srcset="img/bg-bicycle-video-tablet@1x.webp 1x, img/bg-bicycle-video-tablet@2x.webp 2x">
+                <source type="image/webp"
+                  srcset="img/bg-bicycle-video-desktop@1x.webp 1x, img/bg-bicycle-video-desktop@2x.webp 2x">
+                <img src="img/bg-bicycle-video-desktop@1x.jpg" alt="Видео про выбор велосипеда" width="929"
+                  height="522" srcset="img/bg-bicycle-video-desktop@2x.jpg 2x">
+              </picture>
+              <button class="video-bicycles__play-button" type="button">
+                <span class="visually-hidden">Воспроизвести видео</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
   </main>
 
   <footer class="page-footer">
@@ -194,10 +223,6 @@
       </div>
     </div>
   </footer>
-
-  <section class="modal">
-    <h2 class="visually-hidden">Header 2</h2>
-  </section>
 
   <script src="js/main.js"></script>
 

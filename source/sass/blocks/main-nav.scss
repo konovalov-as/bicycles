@@ -19,6 +19,15 @@
   letter-spacing: -0.005em;
   color: white;
   opacity: 0.7;
+
+  &:hover,
+  &:focus {
+    color: #0ad9c6;
+  }
+
+  &:active {
+    opacity: 0.4;
+  }
 }
 
 @media (max-width: $tablet-width-only) {

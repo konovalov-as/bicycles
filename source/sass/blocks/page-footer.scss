@@ -46,6 +46,15 @@
   text-decoration: none;
   color: rgba(0, 0, 0, 0.5);
   line-height: 22px;
+
+  &:hover,
+  &:focus {
+    color: #0ad9c6;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
 }
 
 .page-footer__email {

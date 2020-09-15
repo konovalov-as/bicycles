@@ -106,6 +106,54 @@
       </div>
     </section>
 
+    <section class="types-bicycles">
+      <div class="types-bicycles__wrapper">
+        <div class="container">
+          <h2 class="title-h2 title-h2--types-bicycles">Виды велосипедов</h2>
+          <div class="types-bicycles__inner">
+            <ul class="types-bicycles__list">
+              <li class="types-bicycles__item types-bicycles__item--1">
+                <!-- 1х: 342px; 2x: 684px -->
+                <!-- 1х: 270px; 2x: 540px -->
+                <picture>
+                  <source type="image/webp" media="(max-width: 1023px)"
+                    srcset="img/bicycle-item-1-tablet@1x.webp 1x, img/bicycle-item-1-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/bicycle-item-1-desktop@1x.webp 1x, img/bicycle-item-1-desktop@2x.webp 2x">
+                  <img src="img/bicycle-item-1-desktop@1x.jpg"
+                    alt="Классический дорожный велосипед с черной вместительной корзиной" width="342" height="503"
+                    srcset="img/bicycle-item-1-desktop@2x.jpg 2x">
+                </picture>
+                <span class="types-bicycles__label">Дорожный велосипед</span>
+              </li>
+              <li class="types-bicycles__item types-bicycles__item--2">
+                <picture>
+                  <source type="image/webp" media="(max-width: 1023px)"
+                    srcset="img/bicycle-item-2-tablet@1x.webp 1x, img/bicycle-item-2-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/bicycle-item-2-desktop@1x.webp 1x, img/bicycle-item-2-desktop@2x.webp 2x">
+                  <img src="img/bicycle-item-2-desktop@1x.jpg" alt="Стильный черно-зеленый горный велосипед" width="342"
+                    height="566" srcset="img/bicycle-item-2-desktop@2x.jpg 2x">
+                </picture>
+                <span class="types-bicycles__label">Горный велосипед</span>
+              </li>
+              <li class="types-bicycles__item types-bicycles__item--3">
+                <picture>
+                  <source type="image/webp" media="(max-width: 1023px)"
+                    srcset="img/bicycle-item-3-tablet@1x.webp 1x, img/bicycle-item-3-tablet@2x.webp 2x">
+                  <source type="image/webp"
+                    srcset="img/bicycle-item-3-desktop@1x.webp 1x, img/bicycle-item-3-desktop@2x.webp 2x">
+                  <img src="img/bicycle-item-3-desktop@1x.jpg" alt="Приятный детский велосипед розового цвета"
+                    width="342" height="513" srcset="img/bicycle-item-3-desktop@2x.jpg 2x">
+                </picture>
+                <span class="types-bicycles__label">Детский велосипед</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 
   <footer class="page-footer">
@@ -136,7 +184,7 @@
             </svg>
             <span>puteshestviemechta@gmail.ru</span>
           </a>
-          <a class="page-footer__phone" href="tel: +749978468446">
+          <a class="page-footer__phone" href="tel:+749978468446">
             <svg width="22" height="23">
               <use xlink:href="img/sprite_auto.svg#icon-phone"></use>
             </svg>
@@ -148,7 +196,7 @@
   </footer>
 
   <section class="modal">
-
+    <h2 class="visually-hidden">Header 2</h2>
   </section>
 
   <script src="js/main.js"></script>

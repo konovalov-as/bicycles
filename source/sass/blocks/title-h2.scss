@@ -12,15 +12,21 @@
   margin-bottom: 50px;
 }
 
+.title-h2--types-bicycles {
+  margin-bottom: 60px;
+}
+
 @media (max-width: $tablet-width-only) {
   .title-h2 {
     font-size: 24px;
     line-height: 41px;
   }
-}
 
-@media (max-width: $mobile-width-only) {
   .title-h2--advantages {
+    margin-bottom: 30px;
+  }
+
+  .title-h2--types-bicycles {
     margin-bottom: 30px;
   }
 }

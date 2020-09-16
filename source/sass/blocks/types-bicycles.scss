@@ -1,16 +1,22 @@
 .types-bicycles__wrapper {
   padding-top: 150px;
-  padding-bottom: 145px;
+  padding-bottom: 119px;
   background-color: #f6f7f9;
+}
+
+.types-bicycles__inner {
+  padding-left: 23px;
 }
 
 .types-bicycles__list {
   list-style: none;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  flex-shrink: 0;
+  max-width: 1126px;
+  width: 100%;
 }
 
 .types-bicycles__item {
@@ -29,7 +35,7 @@
 }
 
 .types-bicycles__item:nth-child(3n-1) img {
-  margin-top: 30px;
+  margin-top: 29px;
 }
 
 .types-bicycles__item--1 {
@@ -62,18 +68,19 @@
   }
 
   &::before {
-    top: 8px;
+    top: 11px;
     left: -19px;
   }
 
   &::after {
-    bottom: 30px;
+    bottom: 31px;
     right: -23px;
   }
 }
 
 .types-bicycles__item--3 {
   position: relative;
+  margin-top: -10px;
 
   &::after {
     content: "";
@@ -115,21 +122,29 @@
 @media (max-width: $tablet-width-only) {
   .types-bicycles__wrapper {
     padding-top: 50px;
-    padding-bottom: 70px;
+    padding-bottom: 8px;
+  }
+
+  .types-bicycles__list {
+    justify-content: center;
   }
 
   .types-bicycles__item {
-    margin-bottom: 50px;
-
-    &:nth-last-child(-n + 2) {
-      margin-bottom: 0;
-    }
+    margin-bottom: 61px;
 
     &:nth-child(3n) {
       margin-right: 50px;
     }
 
     &:nth-child(2n) {
+      margin-right: 0;
+    }
+
+    &:nth-child(odd) {
+      margin-left: -23px;
+    }
+
+    &:last-child {
       margin-right: 0;
     }
   }
@@ -174,7 +189,7 @@
 
 @media (max-width: $mobile-width-only) {
   .types-bicycles__wrapper {
-    padding-bottom: 50px;
+    padding-bottom: 54px;
   }
 
   .types-bicycles__inner {
@@ -183,23 +198,27 @@
   }
 
   .types-bicycles__item {
+    margin-bottom: 42px;
     margin-right: 0;
 
+    &:nth-child(2n),
     &:nth-child(3n) {
       margin-right: 0;
     }
 
     &:nth-last-child(-n + 2) {
-      margin-bottom: 50px;
+      margin-bottom: 52px;
+    }
+
+    &:nth-child(odd) {
+      margin-left: 0;
     }
 
     &:last-child {
       margin-bottom: 0;
     }
   }
-}
 
-@media (max-width: $mobile-width-only) {
   .types-bicycles__item--1 {
     &::before {
       top: auto;

@@ -10,7 +10,7 @@
 .help-form p {
   max-width: 347px;
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 19px;
   font-style: normal;
   font-weight: 600;
   font-size: 17px;
@@ -33,7 +33,7 @@
   line-height: 24px;
   color: rgba(28, 28, 28, 0.5);
   padding-top: 13px;
-  padding-bottom: 11px;
+  padding-bottom: 9px;
   padding-left: 30px;
   padding-right: 30px;
   background-color: white;
@@ -53,6 +53,7 @@
 .help-form button {
   width: 100%;
   border: none;
+  margin-bottom: 20px;
   padding-top: 15px;
   padding-bottom: 15px;
   padding-left: 20px;
@@ -84,11 +85,22 @@
     margin-top: 0;
   }
 
+  .help-form form {
+    max-width: 321px;
+  }
+
   .help-form p {
+    margin-bottom: 28px;
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
     line-height: 28px;
-    color: #000000;
+    color: black;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
+  .help-form p {
+    margin-bottom: 19px;
   }
 }

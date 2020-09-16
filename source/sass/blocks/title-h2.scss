@@ -16,6 +16,11 @@
   margin-bottom: 60px;
 }
 
+.title-h2--video-bicycles {
+  color: white;
+  margin-bottom: 20px;
+}
+
 @media (max-width: $tablet-width-only) {
   .title-h2 {
     font-size: 24px;
@@ -28,5 +33,9 @@
 
   .title-h2--types-bicycles {
     margin-bottom: 30px;
+  }
+
+  .title-h2--video-bicycles {
+    margin-bottom: 16px;
   }
 }

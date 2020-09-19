@@ -528,7 +528,7 @@ input[type="radio"].visually-hidden {
     top: 0;
     right: 0;
     z-index: 50;
-    max-width: 320px;
+    max-width: 100%;
     min-height: 568px;
     width: 100%;
     background-color: white;
@@ -978,8 +978,7 @@ input[type="radio"].visually-hidden {
 
 @media (max-width: 1165px) {
   .types-bicycles__item {
-    max-width: 300px;
-    margin-right: 30px; }
+    max-width: 300px; }
   .types-bicycles__item img {
     width: auto;
     height: auto; }
@@ -1298,7 +1297,7 @@ input[type="radio"].visually-hidden {
 .nojs .main-nav__list {
   position: static;
   display: block;
-  margin-top: 20px;
+  margin-top: 350px;
   -webkit-box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5);
           box-shadow: 5px 5px 5px 0 rgba(0, 0, 0, 0.5); }
 

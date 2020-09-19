@@ -3,22 +3,27 @@
   font-weight: 600;
   font-size: 30px;
   line-height: 30px;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.8px;
   color: #1f1f1f;
   text-align: center;
 }
 
 .title-h2--advantages {
   margin-bottom: 50px;
+  margin-left: 25px;
+  margin-right: 10px;
 }
 
 .title-h2--types-bicycles {
-  margin-bottom: 60px;
+  margin-left: -11px;
+  margin-bottom: 59px;
 }
 
 .title-h2--video-bicycles {
   color: white;
   margin-bottom: 20px;
+  margin-left: -11px;
+  letter-spacing: -0.7px;
 }
 
 @media (max-width: $tablet-width-only) {
@@ -28,14 +33,25 @@
   }
 
   .title-h2--advantages {
+    margin-left: 5px;
+    margin-right: 5px;
     margin-bottom: 30px;
+    letter-spacing: -0.6px;
   }
 
   .title-h2--types-bicycles {
+    margin-left: 0;
     margin-bottom: 30px;
   }
 
   .title-h2--video-bicycles {
+    margin-left: -3px;
     margin-bottom: 16px;
+  }
+}
+
+@media (max-width: $mobile-width-only) {
+  .title-h2--video-bicycles {
+    margin-left: -13px;
   }
 }

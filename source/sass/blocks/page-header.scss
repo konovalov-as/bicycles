@@ -45,6 +45,10 @@
     background: linear-gradient(#202020 340px, white 340px);
   }
 
+  .page-header__inner {
+    max-width: 100%;
+  }
+
   .page-header__wrapper {
     min-height: 340px;
     background-position: top;
@@ -58,7 +62,6 @@
   }
 
   .page-header__top {
-    max-width: $mobile-width-only;
     margin: 0 auto;
     position: relative;
     padding-top: 25px;
@@ -72,6 +75,7 @@
 
   .page-header__block {
     display: block;
+    padding-left: 1px;
   }
 }
 
@@ -91,7 +95,6 @@
   }
 
   .page-header__top {
-    max-width: $mobile-width;
     padding-left: 16px;
     padding-right: 16px;
   }

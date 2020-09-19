@@ -16,7 +16,7 @@
   font-size: 17px;
   line-height: 28px;
   text-align: center;
-  letter-spacing: -0.005em;
+  letter-spacing: -0.4px;
   color: white;
 }
 
@@ -25,12 +25,17 @@
   margin-bottom: 20px;
 }
 
+.help-form label:first-child input {
+  border-radius: 4px;
+}
+
 .help-form input {
   width: 100%;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
+  letter-spacing: -0.7px;
   color: rgba(28, 28, 28, 0.5);
   padding-top: 13px;
   padding-bottom: 9px;
@@ -51,11 +56,11 @@
 }
 
 .help-form button {
-  width: 100%;
+  width: 99.5%;
   border: none;
   margin-bottom: 20px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  padding-top: 16px;
+  padding-bottom: 14px;
   padding-left: 20px;
   padding-right: 20px;
   background: #0ad9c6;
@@ -64,6 +69,7 @@
   font-weight: 600;
   font-size: 15px;
   line-height: 21px;
+  letter-spacing: -0.4px;
   text-align: center;
   color: black;
   cursor: pointer;
@@ -90,17 +96,39 @@
   }
 
   .help-form p {
-    margin-bottom: 28px;
+    max-width: 330px;
+    margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
     font-size: 18px;
     line-height: 28px;
     color: black;
   }
+
+  .help-form input {
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+
+  .help-form button {
+    width: 100%;
+  }
 }
 
 @media (max-width: $mobile-width-only) {
   .help-form p {
-    margin-bottom: 19px;
+    margin-bottom: 20px;
+  }
+
+  .help-form input {
+    border-radius: 4px;
+    padding-left: 25px;
+    padding-right: 20px;
+  }
+
+  .help-form button {
+    width: 99.5%;
   }
 }

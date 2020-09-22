@@ -67,7 +67,7 @@
     margin-bottom: 30px;
 
     &::before {
-      height: 45.28%;
+      height: 47%;
       background-image: url("../img/promo-tablet@1x.webp");
 
       @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -76,7 +76,7 @@
     }
 
     &::after {
-      height: 45.28%;
+      height: 47%;
     }
   }
 
@@ -103,7 +103,7 @@
     min-height: 390px;
 
     &::before {
-      height: 54.39%;
+      height: 49.3%;
       background-image: url("../img/promo-mobile@1x.webp");
 
       @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -112,7 +112,7 @@
     }
 
     &::after {
-      height: 54.39%;
+      height: 49.3%;
     }
   }
 

@@ -456,7 +456,7 @@ input[type="radio"].visually-hidden {
     min-height: 340px;
     margin-bottom: 30px; }
     .page-header__wrapper::before {
-      height: 45.28%;
+      height: 47%;
       background-image: url("../img/promo-tablet@1x.webp"); } }
     @media (max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 1023px) and (min-resolution: 144dpi), (max-width: 1023px) and (min-resolution: 1.5dppx) {
       .page-header__wrapper::before {
@@ -464,7 +464,7 @@ input[type="radio"].visually-hidden {
 
 @media (max-width: 1023px) {
     .page-header__wrapper::after {
-      height: 45.28%; }
+      height: 47%; }
   .page-header__top {
     margin: 0 auto;
     position: relative;
@@ -481,7 +481,7 @@ input[type="radio"].visually-hidden {
   .page-header__wrapper {
     min-height: 390px; }
     .page-header__wrapper::before {
-      height: 54.39%;
+      height: 49.3%;
       background-image: url("../img/promo-mobile@1x.webp"); } }
     @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
       .page-header__wrapper::before {
@@ -489,7 +489,7 @@ input[type="radio"].visually-hidden {
 
 @media (max-width: 767px) {
     .page-header__wrapper::after {
-      height: 54.39%; }
+      height: 49.3%; }
   .page-header__top {
     padding-left: 16px;
     padding-right: 16px; }

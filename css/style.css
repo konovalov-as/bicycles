@@ -481,7 +481,7 @@ input[type="radio"].visually-hidden {
   .page-header__wrapper {
     min-height: 390px; }
     .page-header__wrapper::before {
-      height: 54.39%;
+      height: 49.3%;
       background-image: url("../img/promo-mobile@1x.webp"); } }
     @media (max-width: 767px) and (-webkit-min-device-pixel-ratio: 1.5), (max-width: 767px) and (min-resolution: 144dpi), (max-width: 767px) and (min-resolution: 1.5dppx) {
       .page-header__wrapper::before {
@@ -489,7 +489,7 @@ input[type="radio"].visually-hidden {
 
 @media (max-width: 767px) {
     .page-header__wrapper::after {
-      height: 54.39%; }
+      height: 49.3%; }
   .page-header__top {
     padding-left: 16px;
     padding-right: 16px; }

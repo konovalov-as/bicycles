@@ -1,4 +1,9 @@
+/* eslint-disable */
+/* stylelint-disable */
+
 'use strict';
+
+// svg4everybody
 
 !function (root, factory) {
   "function" == typeof define && define.amd ? // AMD. Register as an anonymous module unless amdModuleId is set

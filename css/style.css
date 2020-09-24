@@ -576,6 +576,18 @@ input[type="radio"].visually-hidden {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
+  .main-nav--overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8); }
   .main-nav--closed .main-nav__list {
     display: none; }
   .main-nav--closed .main-menu-toggle {
@@ -761,6 +773,10 @@ input[type="radio"].visually-hidden {
   font-style: normal;
   line-height: normal;
   letter-spacing: normal; }
+
+.body--overlay {
+  height: 100vh;
+  overflow: hidden; }
 
 .title-h2 {
   margin: 0;

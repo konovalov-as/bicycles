@@ -4,11 +4,15 @@
   var nojs = document.querySelector('.nojs');
   nojs.classList.remove('nojs');
 
+  var bodyContainer = document.querySelector('.body');
+
   // toggle main menu
   var mainNav = document.querySelector('.main-nav');
   var menuToggle = document.querySelector('.main-menu-toggle');
   menuToggle.addEventListener('click', function () {
     mainNav.classList.toggle('main-nav--closed');
+    mainNav.classList.toggle('main-nav--overlay');
+    bodyContainer.classList.toggle('body--overlay');
   });
 
   // validate form
